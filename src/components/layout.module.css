@@ -1,0 +1,138 @@
+.container {
+  margin: auto;
+  max-width: 500px;
+  font-family: sans-serif;
+}
+
+.heading {
+  color: rebeccapurple;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.nav-link-item {
+  padding-right: 2rem;
+}
+.nav-link-text {
+  color: black;
+}
+
+.site-title {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin: 3rem 0;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.logo-sizing {
+  width: 110px;
+  height: 98px;
+}
+
+.logo-text{
+  color:#115BA4;
+}
+.secondary-logo-text{
+  color: #e82924;
+}
+
+.hamburger{
+  display: none;
+}
+
+* {
+  font-family: 'Barlow', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.large {
+  font-size: 1.75em;
+}
+
+.bold{
+  font-weight: 900;
+}
+
+.pl1{
+  padding-left: .25em !important; 
+}
+.pl2{
+  padding-left: .5em !important;
+}
+
+.space-between{
+  justify-content:space-evenly;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav .nav-item a{
+  color: black;
+  text-decoration: none;
+}
+
+.nav .nav-item a:hover{
+  color:#115BA4 !important;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover:not(.active) {
+  color:#115BA4;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;900&display=swap');
+
+@media only screen and (max-width: 600px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .hamburger{
+    display: block;
+  }
+}

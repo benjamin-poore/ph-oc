@@ -15,6 +15,7 @@ const IndexPage = () => {
         <img className=''
           src={welcome}
           alt="Welcome to Potter's House" />
+          <h1>Testing</h1>
       </div>
 
     </Layout>

@@ -9,6 +9,14 @@ $logo-text-2: #e82924;
   color: $logo-text;
 }
 
+.max-w-50{
+  max-width: 50% !important;
+}
+
+.border-primary-3{
+  border: 3px solid $logo-text;
+}
+
 .secondary-logo-text{
   color: $logo-text-2;
 }
